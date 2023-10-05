@@ -1,0 +1,5 @@
+s = float(input('введите сторону квадрата: '))
+perimeter = round(s * 4, 2)
+square = round(s ** 2, 2)
+diagonal = round(s * (2 ** 0.5), 2)
+print(perimeter, square, diagonal)
