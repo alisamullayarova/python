@@ -1,14 +1,11 @@
 def is_armstrong_number(number):
-    
     total = 0
     num_digits = len(str(number))
     temp = number
-    
     while temp > 0:
         digit = temp % 10
         total += digit ** num_digits
         temp //= 10
-
     return number == total
 
 def get_armstrong_numbers():
