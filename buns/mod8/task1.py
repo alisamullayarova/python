@@ -224,5 +224,5 @@ class CargoPlane(Plane, Cargo):
         Plane.__init__(self, coordinates, speed, brand, year, number, height)
         Cargo.__init__(self, carrying)
 
-seaplane = SeaPlane(141, 250, 'booing', 1997, 753704, 3200, '235-us', 'aa297g')
-print(seaplane)
+seaplane = SeaPlane([1, 2, 3, 4], 250, 'booing', 1997, 753704, 3200, '235-us', 'aa297g')
+print(seaplane.model)
