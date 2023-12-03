@@ -52,7 +52,7 @@ def print_pilots_info(starship_pilots):
 
 def save_json():
     with open('task1_Mullayarova.json', 'w') as outfile:
-        json.dump(output, outfile)
+        json.dump(output, outfile, indent = 2)
 
 def main():
     starships = get_starships_info('https://swapi.dev/api/starships/')
